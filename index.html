@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Sanaya</title>
+    <style>
+        :root {
+            --bg-color: #FFFDF2;
+            --accent-yellow: #F4E071;
+            --card-bg: #FFFFFF;
+            --text-main: #333333;
+            --text-light: #666666;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            text-align: center;
+        }
+
+        /* Simple Header Navigation */
+        nav {
+            padding: 20px;
+            background: #FFFFFF;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+            margin-bottom: 40px;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: var(--text-light);
+            font-weight: 600;
+        }
+
+        nav a.active {
+            color: #D4A307;
+            border-bottom: 2px solid #D4A307;
+            padding-bottom: 5px;
+        }
+
+        /* Hero Container */
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .hero-card {
+            background: var(--card-bg);
+            padding: 40px 25px;
+            border-radius: 20px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.04);
+            border: 1px solid var(--accent-yellow);
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .highlight-name {
+            color: #D4A307;
+        }
+
+        p {
+            color: var(--text-light);
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 28px;
+            background-color: var(--accent-yellow);
+            color: #333;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: 600;
+            transition: 0.2s ease;
+        }
+
+        .btn:hover {
+            background-color: #EBD352;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html" class="active">Home</a>
+        <a href="wishes.html">Birthday Wishes</a>
+        <a href="reasons.html">For Sanaya</a>
+    </nav>
+
+    <div class="container">
+        <div class="hero-card">
+            <h1>Happy Birthday, <span class="highlight-name">Sanaya</span> ✨</h1>
+            <p>12 August is a special day because it brought you into this world and into my life.</p>
+            <a href="wishes.html" class="btn">Read Birthday Message →</a>
+        </div>
+    </div>
+
+</body>
+</html>
